@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8441f412-22a4-275f-22e6-507969043f15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnity", "FMODUnity.csproj", "{209ac38e-2ff4-31e6-6172-22b82b026ea6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAnimation-Tests", "SimpleAnimation-Tests.csproj", "{3d6f62d5-d70d-a471-ebe3-b0509df38efa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAnimationComponent", "SimpleAnimationComponent.csproj", "{08028f41-e8d5-45a5-a9cd-c6daec072816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{f9915a1b-8fee-545a-be3e-0bed3e51cf02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonance", "FMODUnityResonance.csproj", "{79674fbe-8f5e-b23d-f5f6-d0a0c8db6523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityEditor", "FMODUnityEditor.csproj", "{7e9feadd-606a-85b5-f065-1e1ade8f3c22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{68bd7c1e-3065-7e76-511a-7f84c9c91529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{9cf74455-0653-9f90-c855-53d6959d5dfd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonanceEditor", "FMODUnityResonanceEditor.csproj", "{3135a46f-4358-8399-0d8c-d48b034e6c7a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAnimationComponent-Editor", "SimpleAnimationComponent-Editor.csproj", "{d6cef8e3-8ddd-0eb6-2d31-96cf3c9b813c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8441f412-22a4-275f-22e6-507969043f15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8441f412-22a4-275f-22e6-507969043f15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209ac38e-2ff4-31e6-6172-22b82b026ea6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209ac38e-2ff4-31e6-6172-22b82b026ea6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3d6f62d5-d70d-a471-ebe3-b0509df38efa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3d6f62d5-d70d-a471-ebe3-b0509df38efa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08028f41-e8d5-45a5-a9cd-c6daec072816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08028f41-e8d5-45a5-a9cd-c6daec072816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f9915a1b-8fee-545a-be3e-0bed3e51cf02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f9915a1b-8fee-545a-be3e-0bed3e51cf02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79674fbe-8f5e-b23d-f5f6-d0a0c8db6523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79674fbe-8f5e-b23d-f5f6-d0a0c8db6523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7e9feadd-606a-85b5-f065-1e1ade8f3c22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7e9feadd-606a-85b5-f065-1e1ade8f3c22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68bd7c1e-3065-7e76-511a-7f84c9c91529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68bd7c1e-3065-7e76-511a-7f84c9c91529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9cf74455-0653-9f90-c855-53d6959d5dfd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9cf74455-0653-9f90-c855-53d6959d5dfd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3135a46f-4358-8399-0d8c-d48b034e6c7a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3135a46f-4358-8399-0d8c-d48b034e6c7a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d6cef8e3-8ddd-0eb6-2d31-96cf3c9b813c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d6cef8e3-8ddd-0eb6-2d31-96cf3c9b813c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
