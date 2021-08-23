@@ -55,7 +55,7 @@ function GameInit.LoadOneTableComplete()
         CS.YouYou.GameEntry.Event.CommonEvent:Dispatch(SysEventId.LoadLuaDataTableComplete)
     end
 end
-
+-- C# 和 lua 共享的数组
 function GameInit.CreateLuaCSharpArr(len)
     return LuaCSharpArr.New(len)
 end

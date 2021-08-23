@@ -4,4 +4,5 @@ public class UIFormId
     public const string UIDialog = "UIDialog";
 	public const string UICircle = "UICircle";
     public const int UI_Login = 3;
+    public const int UI_Home = 4;
 }
