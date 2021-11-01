@@ -1,0 +1,30 @@
+
+local logger = CS.YouYou.GameEntry.Logger
+local self = nil
+
+
+
+
+function OnInit(transform,userData)
+    self = transform
+    logger:Log("UI_Home_CalculationTool  OnInit")
+    SetButtonEvent()
+end
+
+function SetButtonEvent()
+    ScientificCalculator.onClick:AddListener(function()
+        logger:Log("科学计算器点击")
+    end)
+end
+
+function OnOpen(userData)
+    logger:Log("UI_Home_CalculationTool  OnOpen")
+end
+
+function OnClose()
+    logger:Log("UI_Home_CalculationTool  OnClose")
+end
+
+function OnBeforDestroy()
+    logger:Log("UI_Home_CalculationTool  OnBeforDestroy")
+end

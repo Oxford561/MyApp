@@ -1,0 +1,24 @@
+
+
+local logger = CS.YouYou.GameEntry.Logger
+local self = nil
+
+
+
+
+function OnInit(transform,userData)
+    self = transform
+    logger:Log("UI_Home  OnInit")
+end
+
+function OnOpen(userData)
+    logger:Log("UI_Home  OnOpen")
+end
+
+function OnClose()
+    logger:Log("UI_Home  OnClose")
+end
+
+function OnBeforDestroy()
+    logger:Log("UI_Home  OnBeforDestroy")
+end
