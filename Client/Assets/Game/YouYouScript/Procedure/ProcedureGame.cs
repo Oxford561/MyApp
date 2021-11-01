@@ -17,7 +17,8 @@ namespace YouYou
 			// GameEntry.ILRuntime.AppDomain.Invoke("Hotfix.GameEntryIL", "ProcedureGameOnEnter", null);
 			// GameEntry.UI.OpenDialogForm("框架内部流程全部加载完毕, 已经进入登录流程", "登录流程");
 			// 打开登录界面
-			Debug.Log("打开Home界面");
+			GameEntry.Logger.Log("打开Home界面");
+			
 			GameEntry.UI.OpenUIForm(UIFormId.UI_Home);
 		}
 		internal override void OnUpdate()
