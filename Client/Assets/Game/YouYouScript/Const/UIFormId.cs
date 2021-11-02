@@ -5,4 +5,6 @@ public class UIFormId
 	public const string UICircle = "UICircle";
     public const int UI_Login = 3;
     public const int UI_Home = 4;
+    public const int UI_MyBlog = 5;
+
 }

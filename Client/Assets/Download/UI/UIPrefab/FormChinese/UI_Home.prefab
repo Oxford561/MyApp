@@ -1718,7 +1718,7 @@ GameObject:
   - component: {fileID: 2131022978885308813}
   - component: {fileID: 486194148857009454}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Btn_MyBlog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1743,7 +1743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 90.8824, y: 0}
+  m_AnchoredPosition: {x: 81.8824, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3182347200772968453
@@ -5307,7 +5307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 66.8824, y: 0}
+  m_AnchoredPosition: {x: 57.8824, y: 0}
   m_SizeDelta: {x: 0, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5505609681259195717
@@ -5351,7 +5351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u79D1\u5B66\u8BA1\u7B97\u5668"
+  m_Text: "\u6211\u7684\u535A\u5BA2"
 --- !u!114 &6623513468770361749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6031,7 +6031,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   luaScript: {fileID: 4900000, guid: 43c0950ec3d9d4b45bac0e9999cb4b12, type: 3}
-  m_LuaComGroups: []
+  m_LuaComGroups:
+  - Name: "\u6309\u94AE"
+    LuaComs:
+    - Name: Btn_MyBlog
+      Type: 2
+      Trans: {fileID: 1051221597828198621}
 --- !u!1 &6763632364724998048
 GameObject:
   m_ObjectHideFlags: 0

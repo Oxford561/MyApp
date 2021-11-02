@@ -1,0 +1,14 @@
+
+
+
+
+local webView = nil
+
+
+function OnInit(transform,userData)
+    webView = Web:GetComponent("WebViewObject")
+    webView:SetMargins(128, 0, 5, 0);
+    webView:SetTextZoom(100);
+    webView:LoadURL("https://oxford561.github.io/")
+    webView:SetVisibility(true)
+end
