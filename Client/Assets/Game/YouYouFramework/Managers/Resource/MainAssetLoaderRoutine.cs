@@ -132,7 +132,7 @@ namespace YouYou
             {
                 if (m_MainAssetBundle == null)
                 {
-                    GameEntry.LogError("MainAssetBundle not exists " + m_CurrAssetEntity.AssetFullName);
+                    GameEntry.Logger.LogError("MainAssetBundle not exists " + m_CurrAssetEntity.AssetFullName);
                     m_OnComplete?.Invoke(null);
                     return;
                 }

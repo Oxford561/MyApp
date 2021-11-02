@@ -127,7 +127,7 @@ namespace YouYou
 				}
 				else
 				{
-					GameEntry.LogError("资源包=>{0} 加载失败", m_CurrAssetBundleInfo.AssetBundleName);
+					GameEntry.Logger.LogError(string.Format("资源包=>{0} 加载失败", m_CurrAssetBundleInfo.AssetBundleName));
 				}
 				OnLoadAssetBundleComplete?.Invoke(assetBundle);
 				Reset();//一定要早点Reset

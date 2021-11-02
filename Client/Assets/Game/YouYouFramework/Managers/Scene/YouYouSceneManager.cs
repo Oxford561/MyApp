@@ -112,14 +112,14 @@ namespace YouYou
         {
             if (m_CurrSceneIsLoading)
             {
-                GameEntry.LogError("场景{0}正在加载中", m_CurrLoadSceneId);
+                GameEntry.Logger.LogError(string.Format("场景{0}正在加载中", m_CurrLoadSceneId));
                 return;
             }
 
             m_OnComplete = onComplete;
             if (m_CurrLoadSceneId == sceneId)
             {
-                GameEntry.LogError("正在重复加载场景{0}", sceneId);
+                GameEntry.Logger.LogError(string.Format("正在重复加载场景{0}", sceneId));
                 m_OnComplete?.Invoke();
                 return;
             }

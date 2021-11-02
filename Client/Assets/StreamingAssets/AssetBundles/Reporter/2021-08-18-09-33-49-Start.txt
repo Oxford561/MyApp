@@ -1,0 +1,31 @@
+2021-08-18 09:33:51:603|Error|FMOD Studio: The FMOD Studio project path '../FMOD/YouYou_FMOD.fspro' does not exist.
+UnityEngine.Debug:LogError (object)
+FMODUnity.EventManager:Update () (at D:/UnityProjects/YouYouFramework-V2.0/Client/Assets/Plugins/FMOD/src/Editor/EventManager.cs:811)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+2021-08-18 09:33:54:972|Log|[youyou]YouYou.ProcedurePreload==>> OnLeave()
+UnityEngine.Debug:Log (object)
+YouYou.GameEntry:Log (YouYou.LogCategory,string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:251)
+YouYou.ProcedureBase:OnLeave () (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureBase.cs:28)
+YouYou.Fsm`1<YouYou.ProcedureManager>:ChangeState (sbyte) (at Assets/Game/YouYouFramework/Managers/Fsm/Fsm.cs:92)
+YouYou.ProcedureManager:ChangeState (YouYou.ProcedureState) (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureManager.cs:95)
+YouYou.ProcedurePreload:OnUpdate () (at Assets/Game/YouYouScript/Procedure/ProcedurePreload.cs:74)
+YouYou.Fsm`1<YouYou.ProcedureManager>:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Fsm/Fsm.cs:78)
+YouYou.ProcedureManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureManager.cs:87)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:195)
+
+
+2021-08-18 09:33:54:973|Log|[youyou]YouYou.ProcedureGame==>> OnEnter()
+UnityEngine.Debug:Log (object)
+YouYou.GameEntry:Log (YouYou.LogCategory,string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:251)
+YouYou.ProcedureBase:OnEnter () (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureBase.cs:17)
+YouYou.ProcedureGame:OnEnter () (at Assets/Game/YouYouScript/Procedure/ProcedureGame.cs:16)
+YouYou.Fsm`1<YouYou.ProcedureManager>:ChangeState (sbyte) (at Assets/Game/YouYouFramework/Managers/Fsm/Fsm.cs:98)
+YouYou.ProcedureManager:ChangeState (YouYou.ProcedureState) (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureManager.cs:95)
+YouYou.ProcedurePreload:OnUpdate () (at Assets/Game/YouYouScript/Procedure/ProcedurePreload.cs:74)
+YouYou.Fsm`1<YouYou.ProcedureManager>:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Fsm/Fsm.cs:78)
+YouYou.ProcedureManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Procedure/ProcedureManager.cs:87)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:195)
+
+

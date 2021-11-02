@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +22,7 @@ public class SysDataManager : IDisposable
 		CurrChannelConfig = new ChannelConfigEntity();
 	}
 	/// <summary>
-	/// Çå¿ÕÊı¾İ
+	/// æ¸…ç©ºæ•°æ®
 	/// </summary>
 	public void Clear()
 	{
@@ -33,7 +33,7 @@ public class SysDataManager : IDisposable
 	}
 
 	/// <summary>
-	/// ¸ù¾İÏµÍ³Âë»ñÈ¡ÌáÊ¾ÄÚÈİ
+	/// æ ¹æ®ç³»ç»Ÿç è·å–æç¤ºå†…å®¹
 	/// </summary>
 	/// <param name="sysCode"></param>
 	/// <returns></returns>

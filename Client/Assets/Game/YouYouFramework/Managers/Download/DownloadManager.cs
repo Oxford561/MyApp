@@ -86,7 +86,8 @@ namespace YouYou
             AssetBundleInfoEntity entity = GameEntry.Resource.ResourceManager.GetAssetBundleInfo(url);
             if (entity == null)
             {
-                GameEntry.LogError("无效资源包=>" + url);
+                // GameEntry.Logger.LogError("无效资源包=>" + url);
+                GameEntry.Logger.Log("无效资源包=>" + url);
                 return;
             }
 

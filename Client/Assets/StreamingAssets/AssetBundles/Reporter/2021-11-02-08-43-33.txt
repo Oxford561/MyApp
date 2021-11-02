@@ -1,0 +1,660 @@
+2021-11-02 08:43:32:896|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:897|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:930|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:932|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:963|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:964|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:997|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:32:998|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:031|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:032|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:064|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:065|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:097|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:098|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:132|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:134|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:165|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:166|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:198|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:200|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:232|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:233|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:265|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:267|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:298|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:300|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:331|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:333|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:367|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:368|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:400|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:401|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:433|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:434|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:466|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:468|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:499|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:501|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:534|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:536|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:567|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:569|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:599|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:601|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:634|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:636|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:667|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:669|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:701|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:703|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:735|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:737|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:768|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:770|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:802|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:803|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:835|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:836|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:868|Error|[youyou]资源包=>download/datatable.assetbundle 加载失败
+UnityEngine.Debug:LogError (object)
+YouYou.GameEntry:LogError (string,object[]) (at Assets/Game/YouYouFramework/GameEntry.cs:273)
+YouYou.AssetBundleLoaderRoutine:UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:130)
+YouYou.AssetBundleLoaderRoutine:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager:OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry:Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+
+2021-11-02 08:43:33:870|Exception|ArgumentException: An item with the same key has already been added. Key: download/datatable.assetbundle
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <eae584ce26bc40229c1b1aa476bfa589>:0)
+YouYou.ResourcePool.Register (YouYou.ResourceEntity entity, System.Boolean reference) (at Assets/Game/YouYouFramework/Managers/Pool/ResourcePool.cs:55)
+YouYou.ResourceLoaderManager+<>c__DisplayClass13_0.<LoadAssetBundle>b__1 (UnityEngine.AssetBundle assetbundle) (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:216)
+YouYou.AssetBundleLoaderRoutine.UpdateAssetBundleCreateRequest () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:132)
+YouYou.AssetBundleLoaderRoutine.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AssetBundleLoaderRoutine.cs:111)
+YouYou.ResourceLoaderManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/ResourceLoaderManager.cs:41)
+YouYou.AddressableManager.OnUpdate () (at Assets/Game/YouYouFramework/Managers/Resource/AddressableManager.cs:54)
+YouYou.GameEntry.Update () (at Assets/Game/YouYouFramework/GameEntry.cs:201)
+
+

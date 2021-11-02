@@ -160,15 +160,21 @@ namespace YouYou
         {
             //1,读表
             Sys_UIFormEntity sys_UIForm = GameEntry.DataTable.Sys_UIFormDBModel.GetDic(uiFormId);
+            GameEntry.Logger.Log("11111dddd1 "+uiFormId);
             if (sys_UIForm == null) return;
+            GameEntry.Logger.Log("11111fffff1");
             if (sys_UIForm.CanMulit == 0 && IsExists(uiFormId)) return;
             UIFormBase formBase = GameEntry.UI.Dequeue(uiFormId);
+            GameEntry.Logger.Log("1111111111");
             if (formBase == null)
             {
+                GameEntry.Logger.Log("1111112222");
                 GameEntry.Task.AddTaskCommon((taskRoutine) =>
                 {
+                    GameEntry.Logger.Log("111113333");
                     LoadAssetUI(sys_UIForm, (form) =>
                     {
+                        GameEntry.Logger.Log("1114444");
                         taskRoutine.Leave();
                         m_OpenUIFormList.AddLast(form);
                         onLoadComplete?.Invoke(form);
@@ -178,6 +184,7 @@ namespace YouYou
             }
             else
             {
+                GameEntry.Logger.Log("115555");
                 m_OpenUIFormList.AddLast(formBase);
                 GameEntry.UI.ShowUI(formBase);
                 //Yield是为了防止OnInit没有被执行
@@ -450,7 +457,7 @@ namespace YouYou
             {
                 if (curr.Value == uiFormId)
                 {
-                    GameEntry.LogError("UI=={0}正在加载中, 打开的频率过高", uiFormId);
+                    GameEntry.Logger.LogError(string.Format("UI=={0}正在加载中, 打开的频率过高", uiFormId));
                     return true;
                 }
             }

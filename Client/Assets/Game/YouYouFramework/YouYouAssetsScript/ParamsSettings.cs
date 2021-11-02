@@ -11,8 +11,8 @@ public class ParamsSettings : ScriptableObject
 	[BoxGroup("InitUrl")] public string WebAccountUrl;
 	[BoxGroup("InitUrl")] public string TestWebAccountUrl;
 	[BoxGroup("InitUrl")] public bool IsTest;
-	[BoxGroup("InitUrl")] public bool PostIsEncrypt;//ÊÇ·ñ¼ÓÃÜ(ÈçÊ±¼ä´Á)
-	[BoxGroup("InitUrl")] public string PostContentType;//ÉèÖÃContentType
+	[BoxGroup("InitUrl")] public bool PostIsEncrypt;//ï¿½Ç·ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½Ê±ï¿½ï¿½ï¿½)
+	[BoxGroup("InitUrl")] public string PostContentType;//ï¿½ï¿½ï¿½ï¿½ContentType
 
 
 
@@ -27,25 +27,25 @@ public class ParamsSettings : ScriptableObject
 	public GradeParamData[] GradeParams;
 
 	/// <summary>
-	/// ³£¹æÊý¾Ý
+	/// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/// </summary>
 	[Serializable]
 	public class GeneralParamData
 	{
 		[TableColumnWidth(260, Resizable = false)]
 		/// <summary>
-		/// ²ÎÊýKey
+		/// ï¿½ï¿½ï¿½ï¿½Key
 		/// </summary>
 		public string Key;
 
 		/// <summary>
-		/// ²ÎÊýÖµ
+		/// ï¿½ï¿½ï¿½ï¿½Öµ
 		/// </summary>
 		public int Value;
 	}
 
 	/// <summary>
-	/// Éè±¸µÈ¼¶
+	/// ï¿½è±¸ï¿½È¼ï¿½
 	/// </summary>
 	public enum DeviceGrade
 	{
@@ -55,34 +55,34 @@ public class ParamsSettings : ScriptableObject
 	}
 
 	/// <summary>
-	/// µÈ¼¶²ÎÊýÊý¾Ý
+	/// ï¿½È¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/// </summary>
 	[Serializable]
 	public class GradeParamData
 	{
 		[TableColumnWidth(260, Resizable = false)]
 		/// <summary>
-		/// ²ÎÊýKey
+		/// ï¿½ï¿½ï¿½ï¿½Key
 		/// </summary>
 		public string Key;
 
 		/// <summary>
-		/// µÍÅäÖµ
+		/// ï¿½ï¿½ï¿½ï¿½Öµ
 		/// </summary>
 		public int LowValue;
 
 		/// <summary>
-		/// ÖÐÅäÖµ
+		/// ï¿½ï¿½ï¿½ï¿½Öµ
 		/// </summary>
 		public int MiddleValue;
 
 		/// <summary>
-		/// ¸ßÅäÖµ
+		/// ï¿½ï¿½ï¿½ï¿½Öµ
 		/// </summary>
 		public int HighValue;
 
 		/// <summary>
-		/// »ñÈ¡²ÎÊýÖµ
+		/// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Öµ
 		/// </summary>
 		/// <param name="grade"></param>
 		/// <returns></returns>
@@ -104,7 +104,7 @@ public class ParamsSettings : ScriptableObject
 	private int m_LenGradeParams = 0;
 
 	/// <summary>
-	/// ¸ù¾ÝkeyºÍÉè±¸µÈ¼¶»ñÈ¡²ÎÊý
+	/// ï¿½ï¿½ï¿½ï¿½keyï¿½ï¿½ï¿½è±¸ï¿½È¼ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 	/// </summary>
 	/// <param name="key"></param>
 	/// <param name="grade"></param>
@@ -121,7 +121,7 @@ public class ParamsSettings : ScriptableObject
 			}
 		}
 
-		GameEntry.LogError("GetGradeParamData Fail key={0}", key);
+		GameEntry.Logger.LogError(string.Format("GetGradeParamData Fail key={0}", key));
 		return 0;
 	}
 }

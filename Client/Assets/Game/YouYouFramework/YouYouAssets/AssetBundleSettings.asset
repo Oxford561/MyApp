@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AssetBundleSettings
   m_EditorClassIdentifier: 
   ResourceVersion: 1.0.0
-  CurrBuildTarget: 0
+  CurrBuildTarget: 1
   Options: 272
   AssetBundleSavePath: AssetBundles
   IsCanEditor: 1
@@ -36,7 +36,7 @@ MonoBehaviour:
     IsCanEditor: 1
     Overall: 1
     IsFirstData: 1
-    IsEncrypt: 1
+    IsEncrypt: 0
     Path:
     - Download/DataTable
   - Name: "\u7279\u6548"

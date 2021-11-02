@@ -226,7 +226,7 @@ public class DownloadRoutine
 				DownloadInner();
 				return;
 			}
-			GameEntry.LogError("下载失败, URL {0} Error= {1}", m_UnityWebRequest.url, m_UnityWebRequest.error);
+			GameEntry.Logger.LogError(string.Format("下载失败, URL {0} Error= {1}", m_UnityWebRequest.url, m_UnityWebRequest.error));
 			Reset();
 		}
 		else

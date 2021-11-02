@@ -42,7 +42,6 @@ namespace YouYou
                 entity.CanMulit = ms.ReadInt();
                 entity.ShowMode = (byte)ms.ReadByte();
                 entity.FreezeMode = (byte)ms.ReadByte();
-
                 m_List.Add(entity);
                 m_Dic[entity.Id] = entity;
             }

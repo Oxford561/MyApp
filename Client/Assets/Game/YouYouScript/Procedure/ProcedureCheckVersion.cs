@@ -1,18 +1,18 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace YouYou
 {
     /// <summary>
-    /// ¼ì²é¸üĞÂÁ÷³Ì
+    /// æ£€æŸ¥æ›´æ–°æµç¨‹
     /// </summary>
     public class ProcedureCheckVersion : ProcedureBase
     {
 		internal override void OnEnter()
         {
             base.OnEnter();
-			GameEntry.Resource.ResourceManager.LocalAssetsManager.SetResourceVersion(null);//²»¼ì²â°æ±¾ºÅ, ¶øÊÇÖ±½Ó¼ì²âMD5
+			GameEntry.Resource.ResourceManager.LocalAssetsManager.SetResourceVersion(null);//ä¸æ£€æµ‹ç‰ˆæœ¬å·, è€Œæ˜¯ç›´æ¥æ£€æµ‹MD5
             GameEntry.Resource.InitStreamingAssetsBundleInfo();
         }
     }

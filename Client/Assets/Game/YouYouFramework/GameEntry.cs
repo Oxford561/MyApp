@@ -239,39 +239,8 @@ namespace YouYou
         /// </summary>
         public static void Log(LogCategory catetory, string message, params object[] args)
         {
-            switch (catetory)
-            {
-                default:
-                case LogCategory.Normal:
-#if UNITY_EDITOR || (DEBUG_LOG_NORMAL && DEBUG_MODEL)
-                    Debug.Log("[youyou]" + (args.Length == 0 ? message : string.Format(message, args)));
-#endif
-                    break;
-                case LogCategory.Procedure:
-#if UNITY_EDITOR || (DEBUG_LOG_PROCEDURE && DEBUG_MODEL)
-                    Debug.Log("[youyou]" + string.Format("{0}", args.Length == 0 ? message : string.Format(message, args)));
-#endif
-                    break;
-                case LogCategory.Resource:
-#if UNITY_EDITOR || (DEBUG_LOG_RESOURCE && DEBUG_MODEL)
-                    Debug.Log("[youyou]" + string.Format("{0}", args.Length == 0 ? message : string.Format(message, args)));
-#endif
-                    break;
-                case LogCategory.Proto:
-#if UNITY_EDITOR || (DEBUG_LOG_PROTO && DEBUG_MODEL)
-                    Debug.Log("[youyou]" + (args.Length == 0 ? message : string.Format(message, args)));
-#endif
-                    break;
-            }
-        }
-        /// <summary>
-        /// 打印错误日志
-        /// </summary>
-        public static void LogError(string message, params object[] args)
-        {
-#if UNITY_EDITOR || (DEBUG_LOG_ERROR && DEBUG_MODEL)
-            Debug.LogError("[youyou]" + (args.Length == 0 ? message : string.Format(message, args)));
-#endif
+            if (Logger != null)
+                Logger.Log(message);
         }
     }
 }

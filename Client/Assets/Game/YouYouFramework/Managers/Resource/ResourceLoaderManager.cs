@@ -143,7 +143,7 @@ namespace YouYou
             {
                 return entity;
             }
-            GameEntry.LogError("资源不存在, assetFullName=>{0}", assetFullName);
+            GameEntry.Logger.LogError(string.Format("资源不存在, assetFullName=>{0}", assetFullName));
             return null;
         }
         #endregion

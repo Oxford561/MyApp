@@ -168,9 +168,7 @@ namespace XLua.CSObjectWrap
                     string _message = LuaAPI.lua_tostring(L, 1);
                     object[] _args = translator.GetParams<object>(L, 2);
                     
-                    YouYou.GameEntry.LogError( _message, _args );
-                    
-                    
+                    YouYou.GameEntry.Logger.LogError(string.Format(_message,_args));
                     
                     return 0;
                 }

@@ -110,7 +110,7 @@ public class DownloadMulitRoutine : IDisposable
 			}
 			else
 			{
-				GameEntry.LogError("无效资源包=>" + url);
+				GameEntry.Logger.LogError("无效资源包=>" + url);
 			}
 		}
 

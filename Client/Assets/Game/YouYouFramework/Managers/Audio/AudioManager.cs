@@ -43,19 +43,19 @@ namespace YouYou
             }
             if (onComplete != null) onComplete();
 #elif ASSETBUNDLE
-			GameEntry.Resource.ResourceLoaderManager.LoadAssetBundle(YFConstDefine.AudioAssetBundlePath, onComplete: (AssetBundle bundle) =>
-			{
-				if (bundle != null)
-				{
-					TextAsset[] arr = bundle.LoadAllAssets<TextAsset>();
-					int len = arr.Length;
-					for (int i = 0; i < len; i++)
-					{
-						RuntimeManager.LoadBank(arr[i]);
-					}
-				}
-				if (onComplete != null) onComplete();
-			});
+            GameEntry.Resource.ResourceLoaderManager.LoadAssetBundle(YFConstDefine.AudioAssetBundlePath, onComplete: (AssetBundle bundle) =>
+            {
+                if (bundle != null)
+                {
+                    TextAsset[] arr = bundle.LoadAllAssets<TextAsset>();
+                    int len = arr.Length;
+                    for (int i = 0; i < len; i++)
+                    {
+                        RuntimeManager.LoadBank(arr[i]);
+                    }
+                }
+                if (onComplete != null) onComplete();
+            });
 #elif RESOURCES
 			TextAsset[] assets = Resources.LoadAll<TextAsset>("Audio");
             for (int i = 0; i < assets.Length; i++)
@@ -101,7 +101,7 @@ namespace YouYou
             }
             else
             {
-                GameEntry.LogError("BGM不存在Id={0}", audioId);
+                GameEntry.Logger.LogError(string.Format("BGM不存在Id={0}", audioId));
             }
         }
         /// <summary>
@@ -247,7 +247,7 @@ namespace YouYou
             }
             else
             {
-                GameEntry.LogError("Audio不存在Id={0}", audioId);
+                GameEntry.Logger.LogError(string.Format("BGM不存在Id={0}", audioId));
                 return -1;
             }
         }

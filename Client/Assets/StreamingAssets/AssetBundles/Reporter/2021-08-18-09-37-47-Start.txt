@@ -1,0 +1,6 @@
+2021-08-18 09:37:49:157|Error|FMOD Studio: The FMOD Studio project path '../FMOD/YouYou_FMOD.fspro' does not exist.
+UnityEngine.Debug:LogError (object)
+FMODUnity.EventManager:Update () (at D:/UnityProjects/YouYouFramework-V2.0/Client/Assets/Plugins/FMOD/src/Editor/EventManager.cs:811)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
