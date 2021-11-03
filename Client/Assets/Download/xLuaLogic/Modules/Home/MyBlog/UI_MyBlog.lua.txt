@@ -6,12 +6,31 @@ local webView = nil
 
 
 function OnInit(transform,userData)
+    print("blog OnInit")
     webView = Web:GetComponent("WebViewObject")
-    webView:SetMargins(128, 0, 5, 0);
+    webView:Init(
+        function()
+            print("JS Init")
+        end,
+        function()
+            print("Error")
+        end,
+        function()
+            print("HttpError")
+        end,
+        function()
+            print("Started")
+        end,
+        function()
+            print("Loaded")
+        end,
+        function()
+            print("hooked")
+        end)
+    webView:SetMargins(0, 128, 0, 0);
     webView:SetTextZoom(100);
     webView:LoadURL("https://oxford561.github.io/")
     webView:SetVisibility(true)
-
     SetButtonEvent()
 end
 
