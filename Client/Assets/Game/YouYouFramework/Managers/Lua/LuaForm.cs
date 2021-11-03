@@ -128,7 +128,7 @@ namespace YouYou
         {
             base.OnInit(userData);
             if (luaScript == null) return;
-
+            GameEntry.Logger.Log("LuaForm");
             if (LuaManager.luaEnv == null) return;
 
             scriptEnv = LuaManager.luaEnv.NewTable();

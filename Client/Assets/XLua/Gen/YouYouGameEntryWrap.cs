@@ -51,9 +51,8 @@ namespace XLua.CSObjectWrap
 			Utils.EndObjectRegister(type, L, translator, null, null,
 			    null, null, null);
 
-		    Utils.BeginClassRegister(type, L, __CreateInstance, 3, 29, 4);
+		    Utils.BeginClassRegister(type, L, __CreateInstance, 2, 29, 4);
 			Utils.RegisterFunc(L, Utils.CLS_IDX, "Log", _m_Log_xlua_st_);
-            Utils.RegisterFunc(L, Utils.CLS_IDX, "LogError", _m_LogError_xlua_st_);
             
 			
             
@@ -144,31 +143,6 @@ namespace XLua.CSObjectWrap
                     YouYou.GameEntry.Log( _catetory, _message, _args );
                     
                     
-                    
-                    return 0;
-                }
-                
-            } catch(System.Exception gen_e) {
-                return LuaAPI.luaL_error(L, "c# exception:" + gen_e);
-            }
-            
-        }
-        
-        [MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-        static int _m_LogError_xlua_st_(RealStatePtr L)
-        {
-		    try {
-            
-                ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
-            
-            
-            
-                
-                {
-                    string _message = LuaAPI.lua_tostring(L, 1);
-                    object[] _args = translator.GetParams<object>(L, 2);
-                    
-                    YouYou.GameEntry.Logger.LogError(string.Format(_message,_args));
                     
                     return 0;
                 }

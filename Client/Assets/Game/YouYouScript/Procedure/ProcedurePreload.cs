@@ -39,7 +39,8 @@ namespace YouYou
 
 #if ASSETBUNDLE
             //初始化资源信息, 并加载Excel
-            GameEntry.Resource.InitAssetInfo(() => {
+            GameEntry.Resource.InitAssetInfo(() =>
+            {
                 GameEntry.DataTable.LoadDataAllTable(BeginTask);
                 //进入到业务流程
                 GameEntry.Procedure.ChangeState(ProcedureState.Game);
@@ -111,25 +112,26 @@ namespace YouYou
             });
 
             //初始化Xlua
-            m_TaskGroup.AddTask((taskRoutine) =>
-            {
-               GameEntry.Lua.Init();
-               //进入到业务流程 暂时
-                GameEntry.Procedure.ChangeState(ProcedureState.Game);
+            // m_TaskGroup.AddTask((taskRoutine) =>
+            // {
+                GameEntry.Logger.Log("初始化XLua");
+            GameEntry.Lua.Init();
+            //进入到业务流程 暂时
+            GameEntry.Procedure.ChangeState(ProcedureState.Game);
             //  GameEntry.Lua.OnLoadDataTableComplete = () => taskRoutine.Leave();
-            });
+            // });
 
             //初始化ILRuntime
-            m_TaskGroup.AddTask((taskRoutine) =>
-            {
-                GameEntry.ILRuntime.Init();
-                GameEntry.ILRuntime.OnLoadDataTableComplete = () => taskRoutine.Leave();
-            });
+            // m_TaskGroup.AddTask((taskRoutine) =>
+            // {
+            //     GameEntry.ILRuntime.Init();
+            //     GameEntry.ILRuntime.OnLoadDataTableComplete = () => taskRoutine.Leave();
+            // });
 
-            m_TaskGroup.OnCompleteOne = () =>
-            {
-                m_TargetProgress = m_TaskGroup.CurrCount / (float)m_TaskGroup.TotalCount * 100;
-            };
+            // m_TaskGroup.OnCompleteOne = () =>
+            // {
+            //     m_TargetProgress = m_TaskGroup.CurrCount / (float)m_TaskGroup.TotalCount * 100;
+            // };
             m_TaskGroup.Run();
         }
     }

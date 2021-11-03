@@ -11,4 +11,19 @@ function OnInit(transform,userData)
     webView:SetTextZoom(100);
     webView:LoadURL("https://oxford561.github.io/")
     webView:SetVisibility(true)
+
+    SetButtonEvent()
+end
+
+function SetButtonEvent()
+    Btn_back.onClick:AddListener(
+        function()
+            CS.YouYou.GameEntry.UI:CloseUIForm(CS.UIFormId.UI_MyBlog)
+        end
+    )
+end
+
+function OnBeforDestroy()
+    Btn_back.onClick:RemoveAllListeners()
+    Btn_back.onClick:Invoke()
 end

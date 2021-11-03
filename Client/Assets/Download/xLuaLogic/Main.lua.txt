@@ -1,6 +1,6 @@
 ﻿--hotfix 热补丁
 --游戏启动时候，先执行热补丁的类
 
-require "GameInit"
+print("Xlua 代码引入正常")
 
-GameInit.Init();
+-- GameInit.Init();

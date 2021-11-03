@@ -91,7 +91,7 @@ namespace YouYou
             }
             else
             {
-                //Debug.Log("该ID对应的数据实体不存在");
+                Debug.Log("该ID对应的数据实体不存在 "+id);
                 return null;
             }
         }

@@ -5,164 +5,170 @@ using UnityEngine;
 
 namespace YouYou
 {
-	/// <summary>
-	/// ×ÊÔ´³Ø
-	/// </summary>
-	public class ResourcePool
-	{
+    /// <summary>
+    /// ï¿½ï¿½Ô´ï¿½ï¿½
+    /// </summary>
+    public class ResourcePool
+    {
 #if UNITY_EDITOR
-		/// <summary>
-		/// ÔÚ¼àÊÓÃæ°åÏÔÊ¾µÄÐÅÏ¢
-		/// </summary>
-		public Dictionary<string, ResourceEntity> InspectorDic = new Dictionary<string, ResourceEntity>();
+        /// <summary>
+        /// ï¿½Ú¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ï¢
+        /// </summary>
+        public Dictionary<string, ResourceEntity> InspectorDic = new Dictionary<string, ResourceEntity>();
 #endif
 
-		/// <summary>
-		/// ×ÊÔ´³ØÃû³Æ
-		/// </summary>
-		public string PoolName { get; private set; }
+        /// <summary>
+        /// ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        /// </summary>
+        public string PoolName { get; private set; }
 
-		/// <summary>
-		/// ×ÊÔ´³Ø×Öµä
-		/// </summary>
-		private Dictionary<string, ResourceEntity> m_ResourceDic;
+        /// <summary>
+        /// ï¿½ï¿½Ô´ï¿½ï¿½ï¿½Öµï¿½
+        /// </summary>
+        private Dictionary<string, ResourceEntity> m_ResourceDic;
 
-		/// <summary>
-		/// ÐèÒªÒÆ³ýµÄKeyÁ´±í
-		/// </summary>
-		private LinkedList<string> m_NeedRemoveKeyList;
+        /// <summary>
+        /// ï¿½ï¿½Òªï¿½Æ³ï¿½ï¿½ï¿½Keyï¿½ï¿½ï¿½ï¿½
+        /// </summary>
+        private LinkedList<string> m_NeedRemoveKeyList;
 
-		/// <summary>
-		/// ¹¹Ôìº¯Êý
-		/// </summary>
-		/// <param name="poolName">×ÊÔ´³ØÃû³Æ</param>
-		public ResourcePool(string poolName)
-		{
-			PoolName = poolName;
-			m_ResourceDic = new Dictionary<string, ResourceEntity>();
-			m_NeedRemoveKeyList = new LinkedList<string>();
-		}
+        /// <summary>
+        /// ï¿½ï¿½ï¿½ìº¯ï¿½ï¿½
+        /// </summary>
+        /// <param name="poolName">ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
+        public ResourcePool(string poolName)
+        {
+            PoolName = poolName;
+            m_ResourceDic = new Dictionary<string, ResourceEntity>();
+            m_NeedRemoveKeyList = new LinkedList<string>();
+        }
 
-		/// <summary>
-		/// ×¢²áµ½×ÊÔ´³Ø(ÒýÓÃ¼ÆÊý+1)
-		/// </summary>
-		/// <param name="entity"></param>
-		public void Register(ResourceEntity entity, bool reference = true)
-		{
-			entity.Spawn(reference);
+        /// <summary>
+        /// ×¢ï¿½áµ½ï¿½ï¿½Ô´ï¿½ï¿½(ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½+1)
+        /// </summary>
+        /// <param name="entity"></param>
+        public void Register(ResourceEntity entity, bool reference = true)
+        {
+            entity.Spawn(reference);
 #if UNITY_EDITOR
-			//if (!InspectorDic.ContainsKey(entity.ResourceName)) InspectorDic.Add(entity.ResourceName, entity);
-			InspectorDic.Add(entity.ResourceName, entity);
+            //if (!InspectorDic.ContainsKey(entity.ResourceName)) InspectorDic.Add(entity.ResourceName, entity);
+            if (!InspectorDic.ContainsKey(entity.ResourceName))
+            {
+                InspectorDic.Add(entity.ResourceName, entity);
+            }
 #endif
-			//if (!m_ResourceDic.ContainsKey(entity.ResourceName)) m_ResourceDic.Add(entity.ResourceName, entity);
-			m_ResourceDic.Add(entity.ResourceName, entity);
-		}
+            //if (!m_ResourceDic.ContainsKey(entity.ResourceName)) m_ResourceDic.Add(entity.ResourceName, entity);
+            if (!m_ResourceDic.ContainsKey(entity.ResourceName))
+            {
+                m_ResourceDic.Add(entity.ResourceName, entity);
+            }
+        }
 
-		/// <summary>
-		/// ×ÊÔ´È¡³Ø(ÒýÓÃ¼ÆÊý+1)
-		/// </summary>
-		/// <param name="resourceName"></param>
-		/// <returns></returns>
-		public ResourceEntity Spawn(string resourceName, bool reference = true)
-		{
-			ResourceEntity resourceEntity = null;
-			if (m_ResourceDic.TryGetValue(resourceName, out resourceEntity))
-			{
-				resourceEntity.Spawn(reference);
+        /// <summary>
+        /// ï¿½ï¿½Ô´È¡ï¿½ï¿½(ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½+1)
+        /// </summary>
+        /// <param name="resourceName"></param>
+        /// <returns></returns>
+        public ResourceEntity Spawn(string resourceName, bool reference = true)
+        {
+            ResourceEntity resourceEntity = null;
+            if (m_ResourceDic.TryGetValue(resourceName, out resourceEntity))
+            {
+                resourceEntity.Spawn(reference);
 #if UNITY_EDITOR
-				if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
-				{
-					InspectorDic[resourceEntity.ResourceName] = resourceEntity;
-				}
+                if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
+                {
+                    InspectorDic[resourceEntity.ResourceName] = resourceEntity;
+                }
 #endif
-			}
-			return resourceEntity;
-		}
+            }
+            return resourceEntity;
+        }
 
-		/// <summary>
-		/// ×ÊÔ´»Ø³Ø
-		/// </summary>
-		/// <param name="resourceName"></param>
-		public void Unspawn(string resourceName)
-		{
-			ResourceEntity resourceEntity = null;
-			if (m_ResourceDic.TryGetValue(resourceName, out resourceEntity))
-			{
-				resourceEntity.Unspawn();
+        /// <summary>
+        /// ï¿½ï¿½Ô´ï¿½Ø³ï¿½
+        /// </summary>
+        /// <param name="resourceName"></param>
+        public void Unspawn(string resourceName)
+        {
+            ResourceEntity resourceEntity = null;
+            if (m_ResourceDic.TryGetValue(resourceName, out resourceEntity))
+            {
+                resourceEntity.Unspawn();
 #if UNITY_EDITOR
-				if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
-				{
-					InspectorDic[resourceEntity.ResourceName] = resourceEntity;
-				}
+                if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
+                {
+                    InspectorDic[resourceEntity.ResourceName] = resourceEntity;
+                }
 #endif
-			}
-		}
+            }
+        }
 
-		/// <summary>
-		/// ÊÍ·Å×ÊÔ´³ØÖÐ¿ÉÊÍ·Å×ÊÔ´
-		/// </summary>
-		public void Release()
-		{
-			var enumerator = m_ResourceDic.GetEnumerator();
-			while (enumerator.MoveNext())
-			{
-				ResourceEntity resourceEntity = enumerator.Current.Value;
-				if (resourceEntity.GetCanRelease())
-				{
+        /// <summary>
+        /// ï¿½Í·ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½Í·ï¿½ï¿½ï¿½Ô´
+        /// </summary>
+        public void Release()
+        {
+            var enumerator = m_ResourceDic.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                ResourceEntity resourceEntity = enumerator.Current.Value;
+                if (resourceEntity.GetCanRelease())
+                {
 #if UNITY_EDITOR
-					if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
-					{
-						InspectorDic.Remove(resourceEntity.ResourceName);
-					}
+                    if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
+                    {
+                        InspectorDic.Remove(resourceEntity.ResourceName);
+                    }
 #endif
-					m_NeedRemoveKeyList.AddFirst(resourceEntity.ResourceName);
-					resourceEntity.Release();
-				}
-			}
+                    m_NeedRemoveKeyList.AddFirst(resourceEntity.ResourceName);
+                    resourceEntity.Release();
+                }
+            }
 
-			//Ñ­»·Á´±í ´Ó×ÖµäÖÐÒÆ³ýÖÆ¶¨µÄKey
-			LinkedListNode<string> curr = m_NeedRemoveKeyList.First;
-			while (curr != null)
-			{
-				string key = curr.Value;
-				m_ResourceDic.Remove(key);
+            //Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½Key
+            LinkedListNode<string> curr = m_NeedRemoveKeyList.First;
+            while (curr != null)
+            {
+                string key = curr.Value;
+                m_ResourceDic.Remove(key);
 
-				LinkedListNode<string> next = curr.Next;
-				m_NeedRemoveKeyList.Remove(curr);
-				curr = next;
-			}
-		}
+                LinkedListNode<string> next = curr.Next;
+                m_NeedRemoveKeyList.Remove(curr);
+                curr = next;
+            }
+        }
 
-		/// <summary>
-		/// ÊÍ·Å³ØÄÚËùÓÐ×ÊÔ´
-		/// </summary>
-		public void ReleaseAll()
-		{
-			var enumerator = m_ResourceDic.GetEnumerator();
-			while (enumerator.MoveNext())
-			{
-				ResourceEntity resourceEntity = enumerator.Current.Value;
+        /// <summary>
+        /// ï¿½Í·Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´
+        /// </summary>
+        public void ReleaseAll()
+        {
+            var enumerator = m_ResourceDic.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                ResourceEntity resourceEntity = enumerator.Current.Value;
 #if UNITY_EDITOR
-				if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
-				{
-					InspectorDic.Remove(resourceEntity.ResourceName);
-				}
+                if (InspectorDic.ContainsKey(resourceEntity.ResourceName))
+                {
+                    InspectorDic.Remove(resourceEntity.ResourceName);
+                }
 #endif
-				m_NeedRemoveKeyList.AddFirst(resourceEntity.ResourceName);
-				resourceEntity.Release();
-			}
+                m_NeedRemoveKeyList.AddFirst(resourceEntity.ResourceName);
+                resourceEntity.Release();
+            }
 
-			//Ñ­»·Á´±í ´Ó×ÖµäÖÐÒÆ³ýÖÆ¶¨µÄKey
-			LinkedListNode<string> curr = m_NeedRemoveKeyList.First;
-			while (curr != null)
-			{
-				string key = curr.Value;
-				m_ResourceDic.Remove(key);
+            //Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½Key
+            LinkedListNode<string> curr = m_NeedRemoveKeyList.First;
+            while (curr != null)
+            {
+                string key = curr.Value;
+                m_ResourceDic.Remove(key);
 
-				LinkedListNode<string> next = curr.Next;
-				m_NeedRemoveKeyList.Remove(curr);
-				curr = next;
-			}
-		}
-	}
+                LinkedListNode<string> next = curr.Next;
+                m_NeedRemoveKeyList.Remove(curr);
+                curr = next;
+            }
+        }
+    }
 }

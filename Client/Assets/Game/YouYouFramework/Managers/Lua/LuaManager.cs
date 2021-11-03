@@ -71,11 +71,11 @@ namespace YouYou
             luaEnv.DoString(string.Format("package.path = '{0}/?.lua.txt'", Application.dataPath + "/Download/xLuaLogic/"));
             DoString("require 'Main'");
 #else
-			//1.添加自定义Loader
-			luaEnv.AddLoader(MyLoader);
+            //1.添加自定义Loader
+            luaEnv.AddLoader(MyLoader);
 
-			//2.加载Bundle
-			LoadLuaAssetBundle();
+            //2.加载Bundle
+            LoadLuaAssetBundle();
 #endif
         }
 
@@ -103,7 +103,8 @@ namespace YouYou
         /// <returns></returns>
         private byte[] MyLoader(ref string filePath)
         {
-            string path = GameEntry.Resource.GetLastPathName(filePath);
+            // string path = GameEntry.Resource.GetLastPathName(filePath);
+            string path = "assets/download/xlualogic/" + filePath +".lua.txt";
             TextAsset asset = m_CurrAssetBundle.LoadAsset<TextAsset>(path);
             byte[] buffer = asset.bytes;
             if (buffer[0] == 239 && buffer[1] == 187 && buffer[2] == 191)
@@ -155,10 +156,10 @@ namespace YouYou
             byte[] buffer = IOUtil.GetFileBuffer(string.Format("{0}/download/xLuaLogic/PB/{1}.bytes", GameEntry.Resource.LocalFilePath, pbName));
             onComplete?.Invoke(buffer);
 #else
-			GameEntry.Resource.ResourceLoaderManager.LoadMainAsset(string.Format("Assets/Download/xLuaLogic/PB/{0}.bytes", pbName), onComplete: (TextAsset res) =>
-			{
-				onComplete?.Invoke(res.bytes);
-			});
+            GameEntry.Resource.ResourceLoaderManager.LoadMainAsset(string.Format("Assets/Download/xLuaLogic/PB/{0}.bytes", pbName), onComplete: (TextAsset res) =>
+            {
+                onComplete?.Invoke(res.bytes);
+            });
 #endif
         }
 

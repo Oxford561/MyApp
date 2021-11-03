@@ -49,6 +49,7 @@ namespace YouYou
 		}
 		public int GetIdByName(string name)
 		{
+			GameEntry.Logger.Log("GetIdByNameXXXXXXXXXXXXXX");
 			if (m_NameByEntityDic == null) InitNameByEntityDic();
 
 			if (m_NameByEntityDic.ContainsKey(name))

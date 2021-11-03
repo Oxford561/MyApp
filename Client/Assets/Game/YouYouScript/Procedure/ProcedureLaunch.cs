@@ -18,8 +18,14 @@ namespace YouYou
 			GameEntry.Procedure.ChangeState(ProcedureState.Preload);
 #elif ASSETBUNDLE
             // GameEntry.Procedure.ChangeState(ProcedureState.Preload);
-            GameEntry.Data.SysDataManager.CurrChannelConfig.SourceUrl = "http://192.168.3.13/";
-			GameEntry.Procedure.ChangeState(ProcedureState.CheckVersion);
+            GameEntry.Data.SysDataManager.CurrChannelConfig.SourceUrl = "http://10.227.201.179/";
+            TimeAction ta = GameEntry.Time.CreateTimeAction();
+            ta.Init("", 0, 1, 1, null, null, () =>
+            {
+
+                GameEntry.Procedure.ChangeState(ProcedureState.CheckVersion);
+            });
+            ta.Run();
             // string url = GameEntry.Http.RealWebAccountUrl + "/init";
             // Dictionary<string, object> dic = GameEntry.Pool.DequeueClassObject<Dictionary<string, object>>();
             // dic.Clear();

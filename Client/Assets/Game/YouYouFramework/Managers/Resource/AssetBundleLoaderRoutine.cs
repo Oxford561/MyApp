@@ -39,6 +39,11 @@ namespace YouYou
 		{
 			m_CurrAssetBundleInfo = GameEntry.Resource.ResourceManager.GetAssetBundleInfo(assetBundlePath);
 
+			if(m_CurrAssetBundleInfo == null){
+				GameEntry.Logger.Log("没能获取到ab包信息 "+assetBundlePath);
+				return;
+			}
+
 			//检查文件在可写区是否存在
 			bool isExistsInLocal = GameEntry.Resource.ResourceManager.LocalAssetsManager.CheckFileExists(assetBundlePath);
 			if (isExistsInLocal && !m_CurrAssetBundleInfo.IsEncrypt)
