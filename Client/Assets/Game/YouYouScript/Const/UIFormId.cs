@@ -6,5 +6,6 @@ public class UIFormId
     public const int UI_Login = 3;
     public const int UI_Home = 4;
     public const int UI_MyBlog = 5;
+    public const int UI_KnowledgeBase = 6;
 
 }

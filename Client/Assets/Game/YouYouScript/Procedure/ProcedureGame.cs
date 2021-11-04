@@ -20,7 +20,7 @@ namespace YouYou
 			GameEntry.Logger.Log("打开Home界面");
 			
 			TimeAction ta = GameEntry.Time.CreateTimeAction();
-			ta.Init("",2,0,1,()=>{GameEntry.UI.OpenUIForm(UIFormId.UI_Home);},null,null);
+			ta.Init("",0.5f,0,1,()=>{GameEntry.UI.OpenUIForm(UIFormId.UI_Home);},null,null);
 			ta.Run();
 		}
 		internal override void OnUpdate()

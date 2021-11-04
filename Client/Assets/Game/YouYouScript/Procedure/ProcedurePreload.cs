@@ -114,7 +114,6 @@ namespace YouYou
             //初始化Xlua
             // m_TaskGroup.AddTask((taskRoutine) =>
             // {
-                GameEntry.Logger.Log("初始化XLua");
             GameEntry.Lua.Init();
             //进入到业务流程 暂时
             GameEntry.Procedure.ChangeState(ProcedureState.Game);
