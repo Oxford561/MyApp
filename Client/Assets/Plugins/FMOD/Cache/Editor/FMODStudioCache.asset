@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637715282271748615
+  lastModified: 637714879161518933
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -103,7 +103,7 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637715282271758380
+  lastModified: 637714879161518933
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -135,7 +135,7 @@ MonoBehaviour:
   - {fileID: -2334838600010642313}
   StringsBanks:
   - {fileID: -671014790144245515}
-  stringsBankWriteTime: 637715282271758380
+  stringsBankWriteTime: 637714879161518933
   cacheVersion: 6
 --- !u!114 &594835778427139353
 MonoBehaviour:
@@ -152,7 +152,7 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 637715282271758380
+  lastModified: 637714879161528931
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -318,7 +318,7 @@ MonoBehaviour:
   Path: ../FMOD/Build/Desktop/BackGround.bank
   Name: BackGround
   StudioPath: bank:/BackGround
-  lastModified: 637715282271748615
+  lastModified: 637714879161518933
   LoadResult: 0
   FileSizes: []
   Exists: 1
