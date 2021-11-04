@@ -17,9 +17,14 @@ end
 function SetButtonEvent()
     Btn_MyBlog.onClick:AddListener(
         function()
-            print("我的博客点击了")
             CS.YouYou.GameEntry.Logger:Log("MyBlog clicked")
             CS.YouYou.GameEntry.UI:OpenUIForm(CS.UIFormId.UI_MyBlog)
+        end
+    )
+    Btn_KnowledgeBase.onClick:AddListener(
+        function()
+            CS.YouYou.GameEntry.Logger:Log("KnowledgeBase clicked")
+            CS.YouYou.GameEntry.UI:OpenUIForm(CS.UIFormId.UI_KnowledgeBase)
         end
     )
 end
